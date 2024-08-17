@@ -1,5 +1,5 @@
-config BR2_PACKAGE_RTL88X2BU_OPENIPC
-	bool "rtl88x2eu-openipc"
+config BR2_PACKAGE_RTL88X2BU
+	bool "rtl88x2bu"
 	depends on BR2_LINUX_KERNEL
 	help
 	  A standalone driver for the RTL88X2BU Dual Band
